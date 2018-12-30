@@ -1,0 +1,97 @@
+.engagera-header {
+    background-image: url('/img/IMaI_banner_Engagera-dig.jpg');
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+
+    .menu-wrapper a {
+        color: #fff;
+    }
+
+
+    .header-wrapper {
+        margin: 6rem auto 0 auto;
+        padding-bottom: 10rem;
+    }
+}
+
+main {
+    .post-content {
+        width: 70%;
+        padding: 2rem 0;
+        margin: 6rem auto;
+
+        text-align: left;
+
+        p {
+            font-size: 1.4rem;
+            font-family: $primary-font;
+            font-weight: 300;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            font-family: $primary-font;
+            font-weight: 700;
+        }
+    }
+
+    .boxes {
+        margin: 6rem auto;
+        width: 70%;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        div {
+            background-color: $primary;
+            width: 200px;
+            height: 200px;
+            margin: 0.5rem;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            word-wrap: auto;
+
+            a {
+                text-align: center;
+                font-size: 1.4rem;
+                color: #fff;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.engagera-main {
+    .lokalgrupper {
+        // width: 70%;
+        background-color: transparent;
+
+        h2 {
+            color: $font-color;
+        }
+
+        .button {
+            background-color: $primary;
+        }
+    }
+}
+
+
+
+
+
+
+
+hr {
+    border:none;
+    border-top: 2px dotted $border-color;
+    height:1px;
+    width:70%;
+}

@@ -3,14 +3,12 @@ body {
     color: $font-color;
 }
 
-
-
-header {
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    margin: 2rem;
+    padding: 2rem;
 
     .logo {
         height: 100px;
@@ -49,7 +47,7 @@ header {
     }
 }
 
-.header {
+header {
     .header-wrapper {
 
         margin: 6rem auto 10rem auto;
@@ -198,6 +196,7 @@ footer {
     ul {
         list-style: none;
         margin: 0 6rem;
+        padding: 0;
 
         li {
             display: inline-block;
