@@ -51,6 +51,7 @@ header {
     .header-wrapper {
 
         margin: 6rem auto 10rem auto;
+        width: 75%;
 
         h1 {
             font-size: 3rem;
@@ -125,6 +126,12 @@ main {
     .blog {
         margin: 6rem 0;
 
+        h1 {
+            margin: 0 3rem;
+            font-size: 3.1rem;
+            font-weight: 900;
+            text-align: center;
+        }
 
         .post {
             border-bottom: 2px dotted $border-color;
@@ -180,6 +187,7 @@ main {
 }
 
 footer {
+    margin-top: 10rem;
     padding: 3rem;
     background-image: url('../img/IMaI_fot.jpg');
     // background-repeat: no-repeat;

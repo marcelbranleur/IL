@@ -1,4 +1,4 @@
-.post {
+.ctn-post {
     margin: 4rem auto 10rem auto;
     width: 70%;
 
@@ -33,5 +33,32 @@
         font-size: 1.75rem;
         font-family: $primary-font;
         font-weight: 700;
+    }
+}
+
+.material {
+    width: 70%;
+    margin: 1rem auto;
+
+    display: flex;
+
+    img {
+        width: 5rem;
+        height: 5rem;
+        object-fit: cover;
+        margin-right: 1rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        font-family: $primary-font;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 0.8rem;
+        font-family: $secondary-font;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
     }
 }
