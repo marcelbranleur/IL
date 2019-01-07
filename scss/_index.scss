@@ -50,7 +50,7 @@ body {
 header {
     .header-wrapper {
 
-        margin: 6rem auto 10rem auto;
+        margin: 1rem auto 10rem auto;
         width: 75%;
 
         h1 {
@@ -323,4 +323,69 @@ nav {
 .open nav {
     visibility: visible;
     opacity: 1;
+}
+
+.open-lang .lang-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.lang-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+
+    visibility: hidden;
+    width: 100vw;
+    min-height: 100vh;
+
+    transition: opacity .5s, visibility .5s;
+    text-align: center;
+
+    opacity: 0;
+    background-color: $primary;
+
+
+    .nav-mobile {
+        margin: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            height: 100px;
+            width: auto;
+        }
+
+        a i {
+            color: $white;
+            margin-right: 1rem;
+            font-size: 2rem;
+        }
+    }
+
+    ul {
+        list-style: none;
+
+        li a {
+            font-weight: 400;
+            font-family: $secondary-font;
+            font-size: 0.9rem;
+            text-align: center;
+            margin: 0.5rem;
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            text-transform: capitalize;
+            display: inline-block;
+
+
+            transition: all .3s ease;
+
+            &:focus,
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
 }
